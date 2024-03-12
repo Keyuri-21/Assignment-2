@@ -20,7 +20,7 @@ module.exports.policies = {
   // '*': true,
 
 //for parent
- 'ParentController.create': 'isAdmin',
+//  'ParentController.create': 'isAdmin',
  'ParentController.update':'isAdmin',
  'ParentController.delete':'isAdmin',
  'ParentController.search':'isAdmin',

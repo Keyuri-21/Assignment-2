@@ -16,7 +16,7 @@ module.exports.routes = {
     'POST /login/login': 'LoginController/login',
     'POST /login/admin-login':'LoginController/adminLogin',
     
-    'POST /Parent/create': {action:'ParentController/create', cors:false},
+    'POST /parent/create': {action:'ParentController/create', cors:false},
     'GET /parent/find': 'ParentController/find',
     'GET /parent/findOne/:id': 'ParentController/findOne',
     'PATCH /parent/update/:id': {action:'ParentController/update', cors:false},
