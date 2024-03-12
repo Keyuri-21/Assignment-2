@@ -19,4 +19,18 @@ module.exports.policies = {
 
   // '*': true,
 
+//for parent
+ 'ParentController.create': 'isAdmin',
+ 'ParentController.update':'isAdmin',
+ 'ParentController.delete':'isAdmin',
+ 'ParentController.search':'isAdmin',
+
+
+ //for student
+ 'StudentController.create':'isAdmin',
+ 'StudentController.update':'isAdmin',
+ 'StudentController.delete':'isAdmin',
+ 'StudentController.searchByEmail':'isAdmin',
+
+
 };
